@@ -1,0 +1,89 @@
+
+/* Default Theme Variables */
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --background-color-light: #f3e8ff; /* Light purple color */
+    --background-color: #a020f0; /* Bright Purple */
+    --background-color-dark: #d1c4e9; /* Slightly darker purple */
+    --light-green: #68af68; /* LightGreen */
+    --light-blue: #6ec2e4; /* SkyBlue */
+    --text-color: #333;
+    --nav-item-color: #75ddba;
+}
+      
+ 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html, body {
+   font-family: "Roboto", sans-serif;
+}
+
+
+.navbar {
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+
+.sidebar-link {
+  color: white;
+  transition: all 0.2s ease;
+}
+
+.sidebar-link:hover {
+  color: lightgrey; /* Bootstrap primary blue */
+ background-color: rgba(255, 255, 255, 0.1);
+  padding-left: 10px;
+}
+  
+.input-icon-left{
+    position: relative;
+   }
+
+   .input-icon-left .bi-search{
+    position: absolute;
+    top:50%;
+    left:15px;
+    transform: translateY(-50%);
+   }
+
+   .input-icon-left input::placeholder{
+    color: black;
+    opacity: 0.8;
+    font-size: 1.125rem;
+   }
+
+    .navbar-toggler {
+    border:none;
+   color:black;
+    }
+
+
+  
+  .navbar-toggler:focus, .btn-close:focus{
+    box-shadow:none;
+    outline:none;
+  }
+
+
+
+
+
+.form-control::placeholder {
+  opacity:0.5 !important;
+}
+
+.custom-hover:hover{
+  color:black;
+  cursor:pointer;
+}
+
+.custom-hover{
+  color:gray;
+}
